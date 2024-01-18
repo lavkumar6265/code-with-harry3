@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set Color for Each Child</title>
+  <style>
+    /* Style for the container */
+    .container {
+      /* Optional: Set a default background color for the container */
+      background-color: #f0f0f0;
+      padding: 10px; /* Optional: Add some padding for spacing */
+    }
+
+    /* Style for each child element */
+    .child:nth-child(1) {
+      background-color: #ffcc00; /* Set background color for the first child */
+    }
+
+    .child:nth-child(2) {
+      background-color: #66ccff; /* Set background color for the second child */
+    }
+
+    .child:nth-child(3) {
+      background-color: #ff99cc; /* Set background color for the third child */
+    }
+
+    /* Add more styles for additional child elements as needed */
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="child">Child 1</div>
+  <div class="child">Child 2</div>
+  <div class="child">Child 3</div>
+  <!-- Add more child elements as needed -->
+</div>
+
+</body>
+</html>
